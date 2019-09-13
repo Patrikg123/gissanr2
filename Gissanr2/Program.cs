@@ -22,6 +22,8 @@ namespace Gissanr2
                 if (textin == rattsvar)
                 {
                     Console.WriteLine("Rätt!");
+                    Console.WriteLine("Tryck på en tangent för att avsluta");
+                    Console.ReadLine();
                     loop = 0;
                 }
                 if (textin < rattsvar)
